@@ -1,0 +1,11 @@
+@use "global" as *;
+.card__img-wrapper {
+  position: relative;
+  padding-top: 74.32%;
+  overflow: hidden;
+  border-radius: rem(10) rem(10) rem(0) rem(0);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

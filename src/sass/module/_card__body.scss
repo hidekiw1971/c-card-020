@@ -1,0 +1,18 @@
+@use "global" as *;
+.card__body {
+  padding: rem(20);
+  background-color: rgba(210, 210, 210, 1);
+  border-radius: rem(0) rem(0) rem(10) rem(10);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__body > *:last-child {
+  margin-bottom: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

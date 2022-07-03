@@ -1,0 +1,11 @@
+@use "global" as *;
+.card__img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translatey(-50%) scale(1.5);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
