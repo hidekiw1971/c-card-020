@@ -171,6 +171,9 @@ select::-ms-expand {
   padding: 1.25rem;
   background-color: rgb(210, 210, 210);
   border-radius: 0rem 0rem 0.625rem 0.625rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 .card__body > *:last-child {
   margin-bottom: 0;
@@ -216,7 +219,13 @@ select::-ms-expand {
   transition: 0.75s;
 }
 .card {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-shadow: 0.9375rem 0.3125rem 0.5rem rgba(0, 0, 0, .3);
           box-shadow: 0.9375rem 0.3125rem 0.5rem rgba(0, 0, 0, .3);
 }
@@ -230,7 +239,7 @@ select::-ms-expand {
   }
 }
 @media screen and (min-width: 768px) {
-  .cards__col3 {
+  .cards__col4 {
     max-width: 80rem;
     width: 100%;
     margin-right: auto;
@@ -238,19 +247,19 @@ select::-ms-expand {
     padding: 0rem 1.5625rem;
   }
 }
-.cards__col3 > .cards__item {
+.cards__col4 > .cards__item {
   margin-bottom: 30px;
   margin-bottom: 1.875rem;
 }
 @media screen and (min-width: 768px) {
-  .cards__col3 > .cards__item {
-    width: 32%;
+  .cards__col4 > .cards__item {
+    width: 23.5%;
     margin-right: 2%;
     margin-bottom: 1.875rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .cards__col3 > .cards__item:nth-of-type(3n) {
+  .cards__col4 > .cards__item:nth-of-type(4n) {
     margin-right: 0%;
   }
 }

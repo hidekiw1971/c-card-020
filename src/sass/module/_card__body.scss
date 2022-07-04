@@ -3,6 +3,7 @@
   padding: rem(20);
   background-color: rgba(210, 210, 210, 1);
   border-radius: rem(0) rem(0) rem(10) rem(10);
+  flex-grow: 1;
   @include mq(md) {
   }
   @include mq(xl) {
