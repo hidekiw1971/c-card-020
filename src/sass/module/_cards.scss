@@ -8,7 +8,6 @@
   }
 }
 
-// .cards__col3 {
 .cards__col4 {
   @include mq(md) {
     max-width: rem(1280);
@@ -16,14 +15,13 @@
     // margin: 0 auto;
     margin-right: auto;
     margin-left: auto;
-    // margin-bottom: rem(-30);
+    margin-bottom: rem(-30);
     padding: rem(0) rem(25);
   }
   @include mq(xl) {
   }
 }
 
-// .cards__col3 > .cards__item {
 .cards__col4 > .cards__item {
   margin-bottom: rem(30);
   @include mq(md) {
@@ -37,7 +35,6 @@
   }
 }
 
-// .cards__col3 > .cards__item:nth-of-type(3n) {
 .cards__col4 > .cards__item:nth-of-type(4n) {
   @include mq(md) {
     margin-right: 0%;

@@ -244,6 +244,7 @@ select::-ms-expand {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: -1.875rem;
     padding: 0rem 1.5625rem;
   }
 }
