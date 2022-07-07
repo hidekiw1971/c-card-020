@@ -1,0 +1,13 @@
+@use "global" as *;
+.test {
+  display: block;
+  max-width: rem(1280);
+  width: 100%;
+  height: rem(100);
+  background-color: rgba(51, 51, 51, 0.1);
+  margin: 0 auto;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
